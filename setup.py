@@ -136,6 +136,9 @@ if __name__ == '__main__':
             'renishawWiRE>=0.1.8',
             'pillow',
         ],
+        extras_require={
+            'test': ['coverage']
+        },
         entry_points=ENTRY_POINTS,
         keywords=KEYWORDS,
         namespace_packages=['orangecontrib'],
